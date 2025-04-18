@@ -1,1 +1,1 @@
-This is the Calendar and schedule code for RsyncUI. It may be run as a standalone application, it will by URL-commands initiate and execute synchronization tasks for selected profiles by RsyncUI.
+This code provides the Calendar and schedule functionality for RsyncUI. It can be executed as a standalone application, and via URL commands, initiate and execute synchronization tasks for selected profiles using RsyncUI.
