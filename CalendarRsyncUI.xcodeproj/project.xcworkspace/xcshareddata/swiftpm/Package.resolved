@@ -1,0 +1,24 @@
+{
+  "originHash" : "e13371d3e626ad6cd0698573765198e910ed57a365ec2b4061a924b8d6d15e3e",
+  "pins" : [
+    {
+      "identity" : "decodeencodegeneric",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rsyncOSX/DecodeEncodeGeneric.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ef0fb9a5c6140dac13ad3ad3be466e5d6955f771"
+      }
+    },
+    {
+      "identity" : "rsyncuideeplinks",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rsyncOSX/RsyncUIDeepLinks",
+      "state" : {
+        "branch" : "main",
+        "revision" : "48aab70bc75c4efc35f83d0180bdea4b8b488351"
+      }
+    }
+  ],
+  "version" : 3
+}
