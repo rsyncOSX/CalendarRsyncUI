@@ -19,6 +19,9 @@ struct StartCalendar: View {
                               futuredates: futuredates)
         }
         .task {
+            // Set as standalone macos applicatiomn
+            SharedReference.shared.standalonecalendar = false
+            
             let catalognames = Homepath().getfullpathmacserialcatalogsasstringnames()
             rsyncUIdata.validprofiles = catalognames.map { catalog in
                 ProfilesnamesRecord(catalog)
