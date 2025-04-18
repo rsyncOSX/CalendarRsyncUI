@@ -20,7 +20,7 @@ struct StartCalendar: View {
         }
         .task {
             // Set as standalone macos applicatiomn
-            SharedReference.shared.standalonecalendar = false
+            SharedReference.shared.standalonecalendar = true
             
             let catalognames = Homepath().getfullpathmacserialcatalogsasstringnames()
             rsyncUIdata.validprofiles = catalognames.map { catalog in
