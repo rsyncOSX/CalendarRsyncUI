@@ -43,6 +43,7 @@ struct AddSchedule: View {
                     .frame(width: 50, alignment: .center)
 
                 Button {
+                    print(dateRunHour)
                     var datecomponents = DateComponents()
                     datecomponents.hour = dateRunHour.en_date_from_string().hourInt + 1
                     datecomponents.minute = dateRunHour.en_date_from_string().minuteInt
