@@ -72,7 +72,7 @@ clean:
 	if [ -a $(PWD)/$(APP).$(VERSION).dmg ]; then rm $(PWD)/$(APP).$(VERSION).dmg; fi;
 
 check:
-	xcrun notarytool log f62c4146-0758-4942-baac-9575190858b8 --keychain-profile "CalendarRsyncUI"
+	xcrun notarytool log 72289545-c07a-4f4b-b22b-0558d4f9ef04 --keychain-profile "CalendarRsyncUI"
 
 history:
 	xcrun notarytool history --keychain-profile "CalendarRsyncUI"
