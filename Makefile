@@ -1,6 +1,6 @@
 APP = CalendarRsyncUI
 BUNDLE_ID = no.blogspot.$(APP)
-VERSION = 1.1.0
+VERSION = 1.0.0
 
 BUILD_PATH = $(PWD)/build
 APP_PATH = "$(BUILD_PATH)/$(APP).app"
