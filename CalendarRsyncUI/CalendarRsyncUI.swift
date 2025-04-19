@@ -4,9 +4,9 @@ import OSLog
 import SwiftUI
 
 @main
-struct Custom_CalendarApp: App {
+struct CalendarRsyncUI: App {
     var body: some Scene {
-        Window("CalendarRsyncUI", id: "main") {
+        Window("Calendar for RsyncUI", id: "main") {
             StartCalendar()
                 .frame(minWidth: 1100, idealWidth: 1300, minHeight: 510)
         }
